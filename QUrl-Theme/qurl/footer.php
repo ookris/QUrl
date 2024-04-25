@@ -9,7 +9,7 @@
     </div>
   </nav>
   <div class="border-top mt-3"></div>
-  <p class="text-body-tertiary text-center mt-4"><small>© <?php echo date("Y"); ?> <?php echo $shorttitle; ?> <i class="bi bi-three-dots-vertical"></i> <?php echo $qurlLang['footer_design_by']; ?> <a href="https://qurl.pl">QUrl.pl</a> <i class="bi bi-plus-lg"></i> <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> <i class="bi bi-three-dots-vertical"></i> <?php echo $qurlLang['footer_powered_by']; ?> <a href="https://yourls.org" target="_blank">YOURLS</a><i class="bi bi-three-dots-vertical"></i> Logo <a href="https://www.flaticon.com/free-icons/url" title="url icons">Flaticon</a></p>
+  <p class="text-body-tertiary text-center mt-4"><small>© <?php echo date("Y"); ?> <?php echo $shorttitle; ?> <i class="bi bi-dot"></i> <a href="https://github.com/ookris/QUrl" target="_blank">QUrl Theme</a> <?php echo $qurlLang['footer_design_by']; ?> <a href="https://qurl.pl">QUrl.pl</a> <i class="bi bi-plus-lg"></i> <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> <i class="bi bi-three-dots-vertical"></i> <?php echo $qurlLang['footer_powered_by']; ?> <a href="https://yourls.org" target="_blank">YOURLS</a><i class="bi bi-three-dots-vertical"></i> Logo <a href="https://www.flaticon.com/free-icons/url" title="url icons">Flaticon</a></p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
