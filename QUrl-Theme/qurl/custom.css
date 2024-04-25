@@ -1,0 +1,56 @@
+@font-face {
+    font-family: RussoOne;
+    src: url(font/Russo_One/RussoOne-Regular.ttf);
+}
+
+.main-gradient {
+    background-color: rgb(246, 246, 246);
+    border: solid 5px #e7e7e7;
+ }
+
+ .short-title-font {
+    font-family: RussoOne;
+ }
+
+ .text-slogan {
+    color: #ca5911; 
+    background-image: -webkit-linear-gradient(0deg, #ca5911 8%, #6eb641 39%, #4bc1ce 100%); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
+                   
+ }
+
+.nav-link:hover {
+   text-decoration-color: currentColor;
+   text-decoration: underline;
+}
+
+.text-danger:hover {
+   text-decoration: underline;
+   text-decoration-color: #e93d3a;
+}
+ .bi-dice-color-1 {
+    color: #004760;
+ }
+
+ .bi-dice-color-2 {
+    color: #66a102;
+ }
+
+ .bi-dice-color-3 {
+    color: #018f81;
+ }
+
+ .bi-dice-color-4 {
+    color: #f49c2f;
+ }
+
+ .bi-dice-color-5 {
+    color: #e93d3a;
+ }
+
+ .bi-dice-color-6 {
+    color: #6b2dd6;
+ }
