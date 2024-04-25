@@ -15,3 +15,6 @@ Installation involves copying the contents of the `QUrl-Theme` directory directl
 ## Configuration
 The theme has basic configuration options. All options are located in the `qurl/config.php` file.
 The theme can be translated into other languages. To do this, you need to create your own language file based on the file `PL-pl_qurl.php`, which is located in the `qurl/lang` directory.
+
+## Preview
+The theme is used on the website [QUrl.pl](https://qurl.pl)
