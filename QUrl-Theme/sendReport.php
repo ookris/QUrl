@@ -1,4 +1,7 @@
 <?php 
+// QUrl Theme for YOURLS
+// A simple theme for YOURLS built based on the Bootstrap framework.
+// Author: ookris => https://github.com/ookris/QUrl
 
 if (empty($_POST['link'])) {
     exit('No access'); 
@@ -7,7 +10,7 @@ if (empty($_POST['link'])) {
 $reportDate = date('d.m.Y H:i');
 $reportID = mt_rand(100000, 999999);
 
-// Load qurl config file 
+// Load config file 
 include('qurl/config.php'); 
 
 //PHPMailer Library

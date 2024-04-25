@@ -7,7 +7,7 @@ if( !defined( 'YOURLS_ABSPATH' ) ) {
 }
 
 // Load config file 
-include('qurl/config.php'); 
+include('qurl/config.php');
 
 // Page title 
 $currentpagetitle = "- O stronie";

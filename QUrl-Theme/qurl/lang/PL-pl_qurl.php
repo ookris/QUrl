@@ -1,4 +1,8 @@
 <?php 
+// QUrl Theme for YOURLS
+// A simple theme for YOURLS built based on the Bootstrap framework.
+// Author: ookris => https://github.com/ookris/QUrl
+
 declare(strict_types=1);
 
 // Polish translation

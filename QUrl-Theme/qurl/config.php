@@ -1,6 +1,9 @@
 <?php 
-// Theme config file
+// QUrl Theme for YOURLS
+// A simple theme for YOURLS built based on the Bootstrap framework.
+// Author: ookris => https://github.com/ookris/QUrl
 
+// Theme config file
 // Page title
 $sitetitle = 'Szybkie skracanie linków';
 $shorttitle = 'QUrl.pl';
@@ -24,8 +27,8 @@ $robots = 'index, nofollow';
 
 // Google reCAPTCHA V3
 // More info: https://developers.google.com/recaptcha
-$recaptchaSiteKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
-$recaptchaSecretKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+$recaptchaSiteKey = 'xxxxxxxxxxxxxx';
+$recaptchaSecretKey = 'xxxxxxxxxxxxxx';
 
 // Email send settings 
 // Sending emails using the PHPMailer library. More info: https://github.com/PHPMailer/PHPMailer
