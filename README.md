@@ -1,6 +1,8 @@
 # QUrl Theme for YOURLS
 A simple theme for [YOURLS](https://yourls.org) built based on the [Bootstrap](https://getbootstrap.com) framework.
 
+[![Listed in Awesome YOURLS!](https://img.shields.io/badge/Awesome-YOURLS-C5A3BE)](https://github.com/YOURLS/awesome-yourls/)
+
 ![QUrl Preview](QUrl_theme_preview.png)
 
 ## Requirements
