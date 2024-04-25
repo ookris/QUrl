@@ -12,7 +12,7 @@ $description = 'Szybkie, wygodne i darmowe skracenie linków ze statystykami';
 // Meta keywords
 $keywords = 'skracacz linkow, tiny link, tiny url, skracanie linków,';
 
-// Language 
+// Theme language 
 $lang = "PL-pl";
 
 // Logo
@@ -65,7 +65,7 @@ $footerLinks = [
 // ##                                     ##
 // #########################################
 
-// Load transalte file
+// Load translation file
 $qurlLang = require 'lang/' . $lang . '_qurl.php';
 
 ?>
