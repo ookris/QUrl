@@ -1,8 +1,4 @@
 <?php 
-// QUrl Theme for YOURLS
-// A simple theme for YOURLS built based on the Bootstrap framework.
-// Author: ookris => https://github.com/ookris/QUrl
-
 declare(strict_types=1);
 
 // Polish translation
@@ -34,7 +30,7 @@ return [
     "get_link_form_qr_h2"               => "Kod QR",
     "get_link_form_qr_info"             => "Udostępnij swój link urządzeniom mobilnym",
     "get_link_form_qr_info2"            => "Kod QR mozna zapisać. Klikamy na niego prawym przyciskiem myszy a następne wybieramy opcję Zapisz obrazek jako.",
-    "get_link_form_qr_message"          => "Informacja:",
+    "get_link_form_error_message"       => "Informacja:",
 
     // sendEmail.php
     "send_email_message_subject"        => "QUrl Wiadomość #ID",

@@ -70,7 +70,8 @@ $status   = isset( $return['status'] ) ? $return['status'] : '';
     <p class="mt-2"><i class="bi bi-info-circle"></i> <?php echo $qurlLang['get_link_form_qr_info2']; ?></p>
 
     <?php } else {
-        echo '<div class="alert alert-danger" role="alert"><i class="bi bi-emoji-expressionless"></i> <strong>' . $qurlLang['get_link_form_qr_info2'] . '</strong> ' . $message . '</div>';
+
+        echo '<div class="alert alert-danger" role="alert"><i class="bi bi-emoji-expressionless"></i> <strong>' . $qurlLang['get_link_form_error_message'] . '</strong> ' . $message . '</div>';
     }
     ?>
 
