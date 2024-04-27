@@ -12,6 +12,12 @@ Theme requires:
 * YOURLS plugin [YOURLS-IQRCodes](https://github.com/joshp23/YOURLS-IQRCodes)
 * [PHPMailer](https://github.com/PHPMailer/PHPMailer) library
 
+### Recommended plugins
+If you intend to run a publicly accessible website, it is worth protecting yourself against spam and dangerous links. For this reason, it is worth installing several plugins.
+
+* [Original URL Regex Limiter](https://github.com/uniwue-rz/yourls-original-url-regex-limiter) - Blocking unwanted/dangerous websites using regular expressions
+* [Mass Remove Links](https://github.com/YOURLS/mass-remove-links/) - Bulk link removal according to various criteria
+
 ## Installation
 Installation involves copying the contents of the `QUrl-Theme` directory directly to the main directory where YOURLS was installed. After copying the theme files to the main YOURLS directory, install the required plugins.
 
