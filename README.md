@@ -7,7 +7,7 @@ A simple theme for [YOURLS](https://yourls.org) built based on the [Bootstrap](h
 
 ## Requirements
 Theme requires:
-* YOURLS itself, of course
+* [YOURLS](https://yourls.org) itself, of course
 * YOURLS plugin [U-SRV](https://github.com/joshp23/YOURLS-U-SRV)
 * YOURLS plugin [YOURLS-IQRCodes](https://github.com/joshp23/YOURLS-IQRCodes)
 * [PHPMailer](https://github.com/PHPMailer/PHPMailer) library
@@ -19,7 +19,7 @@ If you intend to run a publicly accessible website, it is worth protecting yours
 * [Mass Remove Links](https://github.com/YOURLS/mass-remove-links/) - Bulk link removal according to various criteria
 
 ## Installation
-Installation involves copying the contents of the `QUrl-Theme` directory directly to the main directory where YOURLS was installed. After copying the theme files to the main YOURLS directory, install the required plugins.
+Installation involves copying the contents of the `QUrl-Theme` directory directly to the main directory where YOURLS was installed. After copying the theme files to the main YOURLS directory, install the required plugins. 
 
 ### PHPMailer installation
 To send e-mail notifications and for the contact form and the form to report suspicious links to work properly, it is necessary to install the PHPMailer library. The library files should be placed in the `qurl/PHPMailer` folder. 
