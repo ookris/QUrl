@@ -16,12 +16,14 @@ require_once ('qurl/header.php');
 ?>
 
 <!-- index.php -->
-
+<!-- Slogan  -->
 <div class="container-fluid py-5">
      <h1 class="display-5 fw-bold"><i class="bi bi-dice-<?php echo rand(1,6) ?> bi-dice-color-<?php echo rand(1,6) ?>"></i> <span class="short-title-font"><?php echo $shorttitle; ?><span class="text-slogan"> <?php echo $sitetitle; ?></span></span></h1>
     <p class="col-md-8 fs-4"><?php echo $slogan; ?></p>
     <p class="text-secondary fw-light lh-sm"><i class="bi bi-info-circle" data-bs-toggle="tooltip" data-bs-title="<?php echo $qurlLang['total_urls_tooltip_before']; ?> <?php echo $total_urls; ?> <?php echo $qurlLang['total_urls_tooltip_after']; ?>"></i> <?php echo $qurlLang['total_urls_before']; ?> <span class="badge text-bg-light bg-warning-subtle fs-6 value" akhi="<?php echo $total_urls; ?>">0</span> <?php echo $qurlLang['total_urls_after']; ?> <span class="badge text-bg-light bg-warning-subtle fs-6 value" id="js-animate-click" akhi="<?php echo $total_clicks; ?>">0</span> <?php echo $qurlLang['total_urls_after_times']; ?></p>
 </div>
+
+<!-- //Slogan  -->
 
 <div class="p-5 mb-4 rounded-3 main-gradient">
 

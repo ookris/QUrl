@@ -7,7 +7,10 @@ if (empty($_POST['link'])) {
     exit('No access'); 
 }
 
+// Generating current date.
 $reportDate = date('d.m.Y H:i');
+
+// Generating a random six-number report number
 $reportID = mt_rand(100000, 999999);
 
 // Load config file 
@@ -22,7 +25,7 @@ require 'qurl/PHPMailer/src/Exception.php';
 require 'qurl/PHPMailer/src/PHPMailer.php';
 require 'qurl/PHPMailer/src/SMTP.php';
 
-$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+$mail = new PHPMailer(true); // Passing `true` enables exceptions
 try {
     //Server settings
     //$mail->SMTPDebug = SMTP::DEBUG_SERVER;
@@ -85,9 +88,6 @@ try {
 ?>
 
 <?php 
-// Load config file 
-include('qurl/config.php'); 
-
 // Page title 
 $currentpagetitle = $qurlLang['current_page_title_report_send'];
 

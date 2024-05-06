@@ -7,7 +7,10 @@ if (empty($_POST['email'])) {
     exit('No access'); 
 }
 
+// Generating current date.
 $reportDate = date('d.m.Y H:i');
+
+// Generating a random six-number report number
 $reportID = mt_rand(100000, 999999);
 
 // Load config file 
@@ -68,9 +71,6 @@ try {
 ?>
 
 <?php 
-// Load config file 
-include('qurl/config.php'); 
-
 // Page title 
 $currentpagetitle = '/ ' . $qurlLang['current_page_title_contact'] . '>' . $qurlLang['current_page_title_contact_send'];
 
